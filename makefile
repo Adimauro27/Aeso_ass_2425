@@ -1,10 +1,10 @@
 CC = arm-linux-gnueabihf-gcc
-ARMFALGS = -static -ggdb3
+ARMFLAGS = -static -ggdb3 -g
 LDLIBS = -lm
 
-TARGET := 
+TARGET := sum_ar_array
 
-DEPS:= 
+DEPS:=  sum_array.s main_sum_ar_array.c
 $(TARGET):$(DEPS)
-	$(CC) $^ -o $@ $(ARMIFLAGS)
+	$(CC) $^ -o $@ $(ARMFLAGS)
 
