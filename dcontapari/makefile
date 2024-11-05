@@ -2,9 +2,9 @@ CC = arm-linux-gnueabihf-gcc
 ARMFLAGS = -static -ggdb3 -g
 LDLIBS = -lm
 
-TARGET := 
+TARGET := contapari
 
-DEPS:=  pippo.s main_pippo.c
+DEPS:=  contapari.s main_contapari.c
 $(TARGET):$(DEPS)
 	$(CC) $^ -o $@ $(ARMFLAGS)
 
