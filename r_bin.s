@@ -25,7 +25,7 @@ r_bin :
     bgt end
     add r4, r3, r1 @ q = p+r
     lsr r4, #2
-    lsr r4, #1 @ porcodio tu mi sei costata 2 ore
+    lsr r4, #1 @ q = (p+r)/2 
     lsl r4, #2
     ldr r12, [r0, r4]
     cmp r12, r2

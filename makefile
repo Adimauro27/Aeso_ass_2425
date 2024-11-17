@@ -26,3 +26,12 @@ parabola : parabola.s main_parabola.c
 
 r_bin : r_bin.s main_r_bin.c
 	$(CC) $^ -o $@ $(ARMFLAGS)
+
+conta_car : conta_car.s main_conta_car.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
+
+lis_count_elem : lis_count_elem.s main_tutto.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
+
+longest : longest.s main_tutto.c
+	$(CC) $^ -o $@ $(ARMFLAGS)

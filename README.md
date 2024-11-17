@@ -665,3 +665,72 @@ print_msg:
 
 - **Ricerca del massimo valore in una matrice**: Questo esercizio utilizza un ciclo che scorre ogni elemento della matrice. Il valore massimo viene continuamente aggiornato se viene trovato un elemento maggiore. Si utilizza l'indirizzamento con offset per iterare sulla matrice.
 - **Confronto tra due stringhe**: Il ciclo confronta ogni carattere delle due stringhe e si ferma al primo carattere diverso o alla fine delle stringhe. Si utilizza `LDRB` per caricare i caratteri byte per byte. Il programma termina stampando il messaggio di uguaglianza o disuguaglianza in base al risultato del confronto.
+
+## Esercizio 1 
+scrivere una funzione ARMv7 che, presi 3 parametri interi a, b e c, e un quarto parametro intero x, calcoli a*x^2+b*x+c.
+ 
+## Esercizio 2 
+scrivere il codice di una funzione ARMv7 che, preso il puntatore ad un vettore ordinato di interi, la sua size, e un intero da cercare x, ritorni la posizione nel vettore di una occorrenza di x se esiste, oppure -1 altrimenti. La ricerca deve avvenire usando l'algoritmo ricorsivo della ricerca binaria.
+ 
+## Esercizio 3 
+scrivere una funzione ARMv7 che prende come primo parametro il puntatore iniziale ad una stringa e come secondo parametro un carattere. La funzione ritorna il numero di occorrenze del carattere nella stringa.
+ 
+## Esercizio 4 
+scrivere una funzione ARMv7 che prende come primo parametro il puntatore al primo elemento di una lista e restituisce il numero di elementi della lista. Ogni elemento di una lista è una coppia {intero, next} con next puntatore al prossimo elemento (o NULL se questo non esiste).
+ 
+## Esercizio 5
+scrivere una funzione ARMv7 che prende come primo parametro un array di stringhe, e come secondo parametro quante stringhe ci sono nell'array. La funzione ritorna l'indice della stringa più lunga nel vettore fornito.
+
+## Esercizio 6
+Scrivere una funzione ARMv7 che, dati due array di interi ordinati (i cui puntatori e dimensioni sono forniti come parametri), combini i due array in un terzo array ordinato. La funzione deve restituire un puntatore al nuovo array.
+## Esercizio 7
+Scrivere una funzione ARMv7 che prende come parametri un puntatore a una matrice quadrata NxN di interi e la dimensione N della matrice. La funzione deve calcolare e restituire la somma degli elementi della diagonale principale.
+## Esercizio 8
+Scrivere una funzione ARMv7 che, dati due puntatori a stringhe, confronti le due stringhe carattere per carattere e restituisca:
+
+0 se le stringhe sono uguali,
+un valore negativo se la prima stringa è minore della seconda (in ordine lessicografico),
+un valore positivo altrimenti.
+## Esercizio 9
+Scrivere una funzione ARMv7 che, dato un array di interi e la sua dimensione, inverta l'ordine degli elementi nell'array (senza creare un nuovo array).
+## Esercizio 10
+Scrivere una funzione ARMv7 che, dati due interi 
+𝑎
+a e 
+𝑏
+b, calcoli il massimo comun divisore (MCD) usando l'algoritmo di Euclide.
+## Esercizio 11
+Scrivere una funzione ARMv7 che, dato un array di interi e la sua dimensione, trovi e rimuova il valore minimo dall'array spostando gli altri elementi verso sinistra. La funzione deve modificare il contenuto dell'array.
+## Esercizio 12
+Scrivere una funzione ARMv7 che prende come parametri due numeri interi 
+𝑎
+a e 
+𝑏
+b, e restituisce il valore di 
+𝑎
+𝑏
+a 
+b
+  (potenza) calcolato iterativamente.
+## Esercizio 13
+Scrivere una funzione ARMv7 che prende come parametri un puntatore a una stringa e restituisce una nuova stringa con i caratteri in ordine inverso.
+## Esercizio 14
+Scrivere una funzione ARMv7 che prende come parametri un array bidimensionale di numeri interi (una matrice) di dimensioni 
+𝑀
+×
+𝑁
+M×N e restituisce la somma degli elementi di ogni riga in un array unidimensionale.
+## Esercizio 15
+Scrivere una funzione ARMv7 che prende come parametri un array di numeri interi e la sua dimensione e determina se tutti gli elementi dell'array sono distinti. Restituire 1 se sono distinti, 0 altrimenti.
+## Esercizio 16
+Scrivere una funzione ARMv7 che, data una lista concatenata di numeri interi, calcoli la somma di tutti gli elementi della lista.
+## Esercizio 17
+Scrivere una funzione ARMv7 che, data una lista concatenata di numeri interi, crei una nuova lista che contiene solo i valori dispari presenti nella lista originale.
+## Esercizio 18
+Scrivere una funzione ARMv7 che, data una lista concatenata di numeri interi, elimini tutte le occorrenze di un dato numero 
+𝑥
+x dalla lista. La funzione deve modificare la lista originale.
+## Esercizio 19
+Scrivere una funzione ARMv7 che, data una lista concatenata di numeri interi, elimini tutti i duplicati, lasciando solo la prima occorrenza di ogni numero.
+## Esercizio 20
+Scrivere una funzione ARMv7 che prende come parametri due liste concatenate di numeri interi e restituisce una nuova lista concatenata contenente l'unione dei due insiemi di valori (senza duplicati).
