@@ -17,3 +17,12 @@ maius : maius.s main_maius.c
 
 contapari : contapari.s main_contapari.c
 	$(CC) $^ -o $@ $(ARMFLAGS)
+
+vect_scalar : vect_scalar.s main_vect_scalar.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
+
+parabola : parabola.s main_parabola.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
+
+r_bin : r_bin.s main_r_bin.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
