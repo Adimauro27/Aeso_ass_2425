@@ -35,3 +35,12 @@ lis_count_elem : lis_count_elem.s main_tutto.c
 
 longest : longest.s main_tutto.c
 	$(CC) $^ -o $@ $(ARMFLAGS)
+
+diagonale : diagonale.s main_diagonale.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
+
+inverti : inverti.s main_inverti.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
+
+principale : principale.s somma.s calcola.s main_principale.c
+	$(CC) $^ -o $@ $(ARMFLAGS)
